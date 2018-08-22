@@ -1,0 +1,87 @@
+/*.......................................................*/
+.top > .head > h1 > a {
+  color: #000;
+  padding: 0 5px;
+}
+.top > .head > h1 > a > img {
+  margin: 0 5px;
+}
+.navi > .head > p {
+  font-family: "微软雅黑";
+  font-size: 30px;
+  color: #fff;
+  padding-left: 290px;
+  margin-top: 15px;
+}
+/**.........................头部..............................**/
+.content {
+  background: #dddddd;
+  margin-top: 75px;
+  padding-bottom: 70px;
+}
+.content > h1 {
+  font-weight: 400;
+  line-height: 105px;
+  text-align: center;
+  height: 105px;
+  margin: 35px 0 48px;
+  font-family: "微软雅黑";
+  font-size: 30px;
+  color: #000;
+}
+.content > h1 > img {
+  width: 99px;
+  height: 99px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.content > .return {
+  width: 310px;
+  height: 37px;
+  text-align: center;
+  margin-bottom: 35px;
+  margin-left: 460px;
+}
+.content > .return > span {
+  display: inline-block;
+  width: 1px;
+  height: 37px;
+  background: #666600;
+  margin: 0 37px;
+  float: left;
+}
+.content > .return > a {
+  display: inline-block;
+  width: 116px;
+  height: 36px;
+  margin-top: 1px;
+  background: #666600;
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 20px;
+  line-height: 36px;
+  float: left;
+  text-align: center;
+}
+.content > .return > a:first-child {
+  background: #cc0000;
+}
+.content > p {
+  line-height: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "微软雅黑";
+  font-size: 20px;
+  color: #000;
+}
+.content > p > a {
+  color: #666600;
+}
+.content > p > span > a {
+  width: 104px;
+  height: 30px;
+  border: 1px solid #999;
+  color: #000;
+  line-height: 30px;
+  display: inline-block;
+}

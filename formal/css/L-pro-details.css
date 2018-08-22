@@ -1,0 +1,98 @@
+/**...................................................................**/
+.information > .propage {
+  display: block;
+}
+.information > .propage > img {
+  margin: 30px 0 50px 0;
+  float: left;
+}
+.information > .propage > div {
+  width: 786px;
+  overflow: hidden;
+  float: left;
+  margin-left: 35px;
+  border-bottom: 1px dashed #cc0000;
+  margin-bottom: 25px;
+}
+.information > .propage > div > h5 {
+  line-height: 38px;
+  color: #000;
+  font-size: 36px;
+  font-family: "Adobe 黑体 Std";
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.information > .propage > div > h5 > span {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: #ff6633;
+  vertical-align: middle;
+  border-radius: 50%;
+  float: left;
+  margin: 10px 14px 0 0;
+}
+.information > .propage > .major > h5 {
+  margin-bottom: 0;
+}
+.information > .propage > .major > img {
+  width: 783px;
+  height: 390px;
+  float: right;
+  margin-bottom: 20px;
+}
+.information > .propage > .quality > img {
+  float: left;
+  margin-bottom: 20px;
+  width: 785px;
+  height: 567px;
+}
+.information > .propage > .point {
+  padding-bottom: 55px;
+  overflow: hidden;
+}
+.information > .propage > .point > h6 {
+  font-family: Arial;
+  color: #000;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.information > .propage > .point > p {
+  font-family: Arial;
+  color: #8a8a8a;
+  line-height: 32px;
+  font-size: 28px;
+}
+.information > .propage > .point > div > ul {
+  width: 100%;
+  overflow: hidden;
+}
+.information > .propage > .point > div > ul > li {
+  float: left;
+  margin: 20px 9px 20px 0;
+}
+.information > .propage > .point > div > img {
+  float: right;
+}
+.information > .propage > .point > div > p {
+  color: #000;
+  font-size: 12px;
+  line-height: 24px;
+}
+.information > .propage > .point > div > p > span {
+  font-size: 11px;
+  color: #6f6f6f;
+  margin-top: 15px;
+  display: inline-block;
+}
+.information > .propage > .point > div > img.last {
+  float: left;
+}
+.information > .propage > .detail > p {
+  margin-bottom: 45px;
+}
+.information > .propage > .sample {
+  border: 0;
+}
+/** ....................推荐................................... **/

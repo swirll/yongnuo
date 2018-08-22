@@ -1,0 +1,250 @@
+/*.......................................................*/
+.slid > ul > li:nth-child(4) > a {
+  border-bottom: 1px dotted #ccc;
+}
+.order {
+  width: 800px;
+  overflow: hidden;
+  padding: 0 20px;
+  float: left;
+  border: 1px solid #ccc;
+}
+.order > .title {
+  float: left;
+  height: 35px;
+  width: 800px;
+  margin: 27px 0 15px;
+  border-bottom: 1px solid #d8d8d7;
+}
+.order > .title > ul {
+  display: inline-block;
+  line-height: 35px;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  list-style: none;
+  border-block-end-width: 100%;
+}
+.order > .title > ul > li {
+  color: #000;
+  display: block;
+  float: left;
+}
+.order > .title > ul > li > a {
+  display: block;
+  float: left;
+  color: #000;
+}
+.order > .title > ul > li > a:hover {
+  color: #cc0000;
+  border-bottom: 1px solid #cc0000;
+}
+.order > .title > ul > li > span {
+  display: inline-block;
+  margin: 10px 12px;
+  width: 1px;
+  height: 14px;
+  background: #ccc;
+  float: left;
+}
+.order > .title > ul > li > a.on {
+  color: #cc0000;
+  border-bottom: 1px solid #cc0000;
+}
+.order > .title > form {
+  float: right;
+  font-family: "微软雅黑";
+}
+.order > .title > form > input {
+  outline: none;
+  border: 0;
+}
+.order > .title > form > input[type="text"] {
+  width: 280px;
+  height: 34px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  border-right: 0;
+  border-bottom: 0;
+  float: left;
+  font-size: 12px;
+  color: #000;
+  line-height: 34px;
+}
+.order > .title > form > input[type="button"] {
+  width: 50px;
+  height: 35px;
+  background: #cc0000;
+  float: left;
+  font-size: 14px;
+  color: #fff;
+}
+.order > .title > form > input[type="button"]:hover {
+  cursor: pointer;
+}
+.order > h1 {
+  background: #eeeeee;
+  border: 1px solid #e1e1e1;
+  height: 43px;
+  margin-bottom: 3px;
+  font-weight: 400;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  color: #333333;
+  line-height: 43px;
+  clear: both;
+  text-align: center;
+}
+.order > h1 > span {
+  display: inline-block;
+  height: 43px;
+  text-align: center;
+  float: left;
+  width: 103px;
+}
+.order > h1 > small {
+  width: 281px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+}
+.order > h1 > span:nth-child(3) {
+  width: 104px;
+}
+.order > h1 > span:nth-child(4) {
+  width: 98px;
+  padding-left: 5px;
+}
+.order ul.list {
+  width: 800px;
+  overflow: hidden;
+  float: left;
+}
+.order ul.list > li {
+  float: left;
+  width: 100%;
+  height: 191px;
+  background: #eeeeee;
+}
+.order ul.list > li > h2 {
+  line-height: 40px;
+  margin-top: 20px;
+  font-family: "微软雅黑";
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+.order ul.list > li > h2 small {
+  font-size: 14px;
+}
+.order ul.list > li > h2 > span {
+  display: inline-block;
+  float: left;
+}
+.order ul.list > li > h2 > small {
+  float: right;
+  display: inline-block;
+}
+.order ul.list > li > div {
+  float: left;
+  height: 129px;
+  width: 798px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+.order ul.list > li > div > div {
+  float: left;
+  width: 102px;
+  height: 102px;
+  border-left: 1px solid #ccc;
+  text-align: center;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  line-height: 21px;
+  color: #000;
+}
+.order ul.list > li > div > div > div {
+  float: left;
+  width: 282px;
+  overflow: hidden;
+  text-align: left;
+}
+.order ul.list > li > div > div > div > a {
+  display: block;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #000;
+}
+.order ul.list > li > div > div > div > a > p {
+  line-height: 24px;
+}
+.order ul.list > li > div > div > div > a > img {
+  width: 83px;
+  height: 78px;
+  margin: 0 5px 0 10px;
+  border: 1px solid #ccc;
+  float: left;
+}
+.order ul.list > li > div > div > div > a > span {
+  color: #666600;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+.order ul.list > li > div > div > small {
+  font-size: 12px;
+  color: #999999;
+  text-decoration: line-through;
+}
+.order ul.list > li > div > div > a {
+  color: #666666;
+}
+.order ul.list > li > div > div > a > img {
+  width: 17px;
+  height: 15px;
+  margin-top: 5px;
+}
+.order ul.list > li > div > div > a:first-child {
+  display: inline-block;
+  width: 65px;
+  height: 27px;
+  background: #cc0000;
+  color: #fff;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+.order ul.list > li > div > div:first-child {
+  border-left: 0;
+  width: 282px;
+  margin-top: 26px;
+}
+.order ul.list > li > div > div:nth-child(2) {
+  height: 90px;
+  padding-top: 40px;
+}
+.order ul.list > li > div > div.num {
+  width: 103px;
+  height: 130px;
+  line-height: 130px;
+}
+.order ul.list > li > div > div:nth-child(5) {
+  height: 85px;
+  padding-top: 45px;
+}
+.order ul.list > li > div > div:nth-child(4) {
+  height: 90px;
+  padding-top: 40px;
+}
+.order ul.list > li > div > div:nth-child(6) {
+  height: 100px;
+  padding-top: 30px;
+}
+.order ul.list > li:first-child {
+  background: #fff;
+}
+.order > p {
+  clear: both;
+}
+.order > .page {
+  margin-top: 34px;
+  margin-bottom: 30px;
+}

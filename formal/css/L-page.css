@@ -1,0 +1,51 @@
+ul.page {
+  width: 500px;
+  height: 32px;
+  margin: 0 auto;
+  margin-top: 33px;
+  text-align: center;
+}
+ul.page > li {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-left: 0;
+  line-height: 30px;
+  display: inline-block;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  float: left;
+}
+ul.page > li > a {
+  display: block;
+  color: #000;
+}
+ul.page > li:hover {
+  border: 1px solid #cc0000;
+  border-left: 0;
+}
+ul.page > li:hover a {
+  background: #cc0000;
+  color: #fff;
+}
+ul.page > li.null:hover {
+  border: 1px solid #ccc;
+  border-left: 0;
+}
+ul.page > li.on {
+  border: 1px solid #cc0000;
+}
+ul.page > li.on > a {
+  background: #cc0000;
+  color: #fff;
+}
+ul.page > li:first-child + li {
+  border-left: 1px solid #ccc;
+}
+ul.page > li.prev,
+ul.page li.next {
+  width: 74px;
+  margin: 0 9px;
+  border: 1px solid #ccc;
+}

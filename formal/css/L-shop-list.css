@@ -1,0 +1,598 @@
+.location {
+  width: 1200px;
+  height: 75px;
+}
+.location > div {
+  float: left;
+}
+.location > div > h3 {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #000;
+  font-weight: 400;
+  display: inline-block;
+  float: left;
+  line-height: 70px;
+}
+.location > div > h3 > a {
+  color: #000;
+}
+.location > div > h3 > a:hover {
+  color: #330000;
+}
+.location > div > span {
+  float: left;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  line-height: 70px;
+}
+.location > div > span > small {
+  color: #cc0000;
+}
+.location > div > form {
+  width: 168px;
+  height: 17px;
+  border: 1px solid #999999;
+  float: left;
+  margin: 25px 11px 0 5px;
+}
+.location > div > form > input {
+  outline: none;
+  border: 0;
+  float: left;
+  width: 130px;
+  height: 17px;
+  padding-left: 8px;
+  line-height: 17px;
+  color: #000;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+.location > div > form > button {
+  width: 29px;
+  height: 17px;
+  outline: 0;
+  border: 0;
+  background: url(../images/shoplist-search.png) no-repeat center;
+  float: right;
+}
+.location > div > form > button:hover {
+  cursor: pointer;
+}
+.location > span {
+  float: right;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  line-height: 70px;
+}
+.location > span > a {
+  color: #666666;
+}
+.location > span > a:hover {
+  color: #330000;
+}
+/**location**/
+/**recommend**/
+.recommend {
+  background: #e5e5e5;
+  width: 1200px;
+  height: 240px;
+  margin-bottom: 20px;
+}
+.recommend > .tip {
+  margin-left: 21px;
+  margin-right: 10px;
+  float: left;
+  width: 40px;
+  height: 60px;
+}
+.recommend > .tip > p {
+  width: 24px;
+  height: 30px;
+  padding: 6px 8px 0;
+  display: inline-block;
+  color: #cc0000;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  background: #fff;
+  line-height: 14px;
+  text-align: center;
+}
+.recommend > .tip > small {
+  display: inline-block;
+  border-top: 11px solid #fff;
+  border-left: 12px solid #fff;
+  border-right: 12px solid transparent;
+  border-bottom: 11px solid transparent;
+  float: left;
+}
+.recommend > .tip > span {
+  display: inline-block;
+  border-top: 11px solid #fff;
+  border-left: 12px solid transparent;
+  border-right: 12px solid #fff;
+  border-bottom: 11px solid transparent;
+  float: right;
+  margin-top: -22px;
+}
+.recommend li {
+  width: 246px;
+  height: 170px;
+  float: left;
+  margin-right: 36px;
+  margin-top: 36px;
+  background: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  line-height: 23px;
+}
+.recommend li > a {
+  display: block;
+  background: #fff;
+}
+.recommend li > a > h2 {
+  color: #330000;
+  font-family: "黑体";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 9px;
+}
+.recommend li > a > p {
+  color: #cc0000;
+}
+.recommend li > a > span {
+  display: inline-block;
+  width: 98px;
+  height: 23px;
+  color: #fff;
+  font-size: 14px;
+  background: #cc0000;
+}
+.recommend li > a > img {
+  display: block;
+  margin: 3px auto 0;
+}
+/**recommend**/
+/**classify**/
+.classify {
+  width: 1200px;
+  overflow: hidden;
+}
+.classify > ul {
+  border: 1px solid #d8d8d8;
+  overflow: hidden;
+}
+.classify > ul > li {
+  width: 1198px;
+  overflow: hidden;
+  border-bottom: 1px dashed #6d6d6d;
+  float: left;
+}
+.classify > ul > li > small {
+  background: #e5e5e5;
+  display: inline-block;
+  width: 85px;
+  height: 80%;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  line-height: 80px;
+  float: left;
+}
+.classify > ul > li > .include {
+  width: 950px;
+  height: 79px;
+  overflow: hidden;
+  line-height: 79px;
+  font-family: "微软雅黑";
+  color: #000;
+  font-size: 14px;
+  float: left;
+}
+.classify > ul > li > .include > span {
+  width: 56px;
+  display: inline-block;
+  margin: 0 30px;
+  text-align: left;
+}
+.classify > ul > li > .include > span > a {
+  color: #000;
+}
+.classify > ul > li > .include > span > a.on {
+  color: #cc0000 !important;
+}
+.classify > ul > li > .open {
+  width: 120px;
+  height: 79px;
+  float: right;
+}
+.classify > ul > li > .open > button {
+  float: left;
+  width: 41px;
+  height: 22px;
+  border: 1px solid #cccccc;
+  color: #000;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  text-align: center;
+  line-height: 20px;
+  background: #fff;
+  margin-top: 27px;
+  margin-right: 17px;
+  outline: none;
+}
+.classify > ul > li > .open > span {
+  display: inline-block;
+  width: 46px;
+  height: 22px;
+  color: #000;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  float: left;
+  line-height: 22px;
+  margin-top: 27px;
+}
+.classify > ul > li > .open > span > img {
+  width: 11px;
+  height: 6px;
+  float: right;
+  margin-top: 8px;
+}
+.classify > ul > li > .open > span:hover {
+  cursor: pointer;
+}
+.classify > ul > li button:hover {
+  cursor: pointer;
+}
+.classify > ul > li:last-child {
+  border-bottom: 0;
+}
+.classify > ul > li:last-child > .include {
+  width: 630px;
+}
+.classify > ul > li:last-child > .include > span {
+  width: 85px;
+  display: inline-block;
+  margin: 0 0 0 30px;
+  text-align: left;
+  line-height: 79px;
+  font-family: "微软雅黑";
+  font-size: 16px;
+}
+.classify > ul > li:last-child > .include > span > a {
+  color: #000;
+}
+.classify > ul > li:last-child > form {
+  float: left;
+  width: 270px;
+  height: 20px;
+  margin-top: 30px;
+}
+.classify > ul > li:last-child > form > input {
+  width: 70px;
+  padding: 0 4px;
+  line-height: 18px;
+  height: 18px;
+  border: 1px solid #ccc;
+  outline: none;
+  float: left;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #000;
+}
+.classify > ul > li:last-child > form > span {
+  display: inline-block;
+  width: 18px;
+  height: 2px;
+  background: #ccc;
+  float: left;
+  vertical-align: middle;
+  margin: 9px;
+}
+.classify > ul > li:last-child > form > button {
+  width: 48px;
+  height: 20px;
+  border: 1px solid #ccc;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  float: left;
+  color: #000;
+  background: #fff;
+  line-height: 18px;
+  outline: none;
+  margin-left: 13px;
+}
+.classify > ul > li:last-child > form > button:hover {
+  border: 1px solid #cc0000;
+}
+/**classify**/
+/**shoplist**/
+.shoplist {
+  overflow: hidden;
+  margin-top: 20px;
+}
+.shoplist > .title {
+  margin-bottom: 10px;
+  height: 36px;
+}
+.shoplist > .title > .on {
+  color: #cc0000;
+  border: 1px solid #cc0000;
+}
+.shoplist > .title > a {
+  width: 66px;
+  height: 36px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #000;
+  float: left;
+  text-align: center;
+  line-height: 36px;
+}
+.shoplist > .title > a:hover {
+  color: #cc0000;
+  border: 1px solid #cc0000;
+}
+.shoplist > .title > a > img {
+  float: right;
+}
+.shoplist > .title > a > img:hover {
+  cursor: pointer;
+}
+.shoplist > .title > a > img:first-child {
+  margin: 11px 11px 0 0;
+}
+.shoplist > .title > a > img:last-child {
+  margin: -18px 11px 0 0;
+}
+.shoplist > .title > form {
+  width: 927px;
+  height: 36px;
+  border: 1px solid #ccc;
+  border-left: 0;
+  float: right;
+}
+.shoplist > .title > form .form-control {
+  width: 166px;
+  height: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  float: right;
+  margin-left: 10px;
+  padding-left: 7px;
+  line-height: 20px;
+  outline: none;
+}
+.shoplist > .title > form > input {
+  outline: 0;
+  border: 1px solid #ccc;
+}
+.shoplist > .title > form > span {
+  width: 92px;
+  height: 36px;
+  float: right;
+  display: inline-block;
+  line-height: 36px;
+  font-family: "微软雅黑";
+  color: #000;
+  font-size: 14px;
+}
+.shoplist > .title > form > span > small.on {
+  color: #cc0000;
+}
+.shoplist > .title > form > span > a.on {
+  color: #ccc;
+}
+.shoplist > .title > form > span > a {
+  float: right;
+  margin-right: 25px;
+  color: #000;
+}
+.shoplist > .title > form > span > a:last-child {
+  margin-right: 37px;
+  margin-top: -37px;
+}
+.shoplist > .title > form > div.lab {
+  float: right;
+  width: 615px;
+  height: 22px;
+  margin-top: 7px;
+}
+.shoplist > .title > form > div.lab > small {
+  display: inline-block;
+  float: left;
+  line-height: 22px;
+}
+.shoplist > .title > form > div.lab > div {
+  float: left;
+  height: 22px;
+  margin-left: 20px;
+  font-family: "微软雅黑";
+  color: #000;
+  font-size: 14px;
+  line-height: 22px;
+}
+.shoplist > .title > form > div.lab > div:hover {
+  cursor: pointer;
+}
+.shoplist > .title > form > div.lab > div > span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+  margin-top: 4px;
+  float: left;
+}
+.shoplist > .title > form > div.lab > div > span > img {
+  float: left;
+  width: 14px;
+  height: 14px;
+}
+.shoplist > .title > form > div.lab > div > span > img:hover {
+  cursor: pointer;
+}
+.shoplist > .shop {
+  width: 1200px;
+  overflow: hidden;
+}
+.shoplist > .shop > ul.slist:after {
+  content: "";
+  display: block;
+  clear: both;
+  overflow: hidden;
+  font-size: 0;
+  height: 0;
+}
+.shoplist > .shop > ul.slist > li {
+  float: left;
+  width: 298px;
+  height: 386px;
+  border: 1px solid #ccc;
+}
+.shoplist > .shop > ul.slist > li > a {
+  padding-left: 0;
+  text-align: center;
+  display: block;
+  height: 386px;
+  position: relative;
+}
+.shoplist > .shop > ul.slist > li > a > img {
+  margin-top: 52px;
+}
+.shoplist > .shop > ul.slist > li > a > div {
+  display: block;
+  height: 130px;
+  text-decoration: none;
+  margin-top: 30px;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 40px;
+  position: absolute;
+  bottom: 0;
+}
+.shoplist > .shop > ul.slist > li > a > div > h2 {
+  color: #330000;
+  font-family: "黑体";
+  font-size: 18px;
+  font-weight: 400;
+}
+.shoplist > .shop > ul.slist > li > a > div > h3 {
+  color: #cc0000;
+  font-family: "微软雅黑";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.shoplist > .shop > ul.slist > li > a > div > h3 > span {
+  color: #999;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+.shoplist > .shop > ul.slist > li > a > div > p {
+  color: #999;
+  font-family: "黑体";
+  font-size: 16px;
+}
+.shoplist > .shop > ul.slist > li > a > div > p > span {
+  color: #cc0000;
+  font-family: "黑体";
+  font-size: 16px;
+}
+/**shoplist**/
+.walk {
+  overflow: hidden;
+  margin-top: 95px;
+}
+.walk > h2 {
+  color: #000;
+  font-family: "黑体";
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  position: relative;
+}
+.walk > h2:before {
+  position: absolute;
+  content: "";
+  width: 493px;
+  height: 2px;
+  background: #ccc;
+  left: 15px;
+  top: 13px;
+}
+.walk > h2:after {
+  position: absolute;
+  content: "";
+  width: 493px;
+  height: 2px;
+  background: #ccc;
+  right: 15px;
+  top: 13px;
+}
+.walk > ul {
+  margin-top: 30px;
+}
+.walk li {
+  width: 239px;
+  height: 275px;
+  border: 1px dashed #999999;
+  border-left: 0;
+  position: relative;
+  float: left;
+}
+.walk li > a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+}
+.walk li > a > img {
+  display: block;
+  margin: 20px auto;
+}
+.walk li > a > div {
+  position: absolute;
+  bottom: 20px;
+  width: 239px;
+}
+.walk li > a > div > p {
+  font-family: "黑体";
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  line-height: 20px;
+}
+.walk li > a > div > span {
+  display: block;
+  color: #cc0000;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  text-align: center;
+  line-height: 20px;
+}
+.walk li:nth-child(1) {
+  border-bottom: 0;
+}
+.walk li:nth-child(2) {
+  border-bottom: 0;
+}
+.walk li:nth-child(3) {
+  border-bottom: 0;
+}
+.walk li:nth-child(4) {
+  border-bottom: 0;
+}
+.walk li:nth-child(5) {
+  border-bottom: 0;
+}
+.walk li:nth-child(5n) {
+  border-right: 0;
+}

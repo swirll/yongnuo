@@ -1,0 +1,540 @@
+/**...................................................................**/
+select：hover {
+  cursor: pointer;
+}
+.content > h1 {
+  font-family: "微软雅黑";
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 20px 0;
+}
+.content > h1 > a {
+  color: #000;
+}
+.content > h1 > a:hover {
+  color: #cc0000;
+}
+/** ................商品信息................................... **/
+.pro-message {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+.pro-message > #xs #zoom {
+  width: 447px;
+  height: 451px;
+  position: absolute;
+  overflow: hidden;
+}
+.pro-message > #xs #zoom img {
+  width: 1500px;
+  position: absolute;
+}
+.pro-message > .enlarge {
+  float: left;
+}
+.pro-message > .enlarge > #small {
+  position: relative;
+  width: 445px;
+  height: 449px;
+}
+.pro-message > .enlarge > #small > img {
+  width: 445px;
+  height: 449px;
+  border: 1px solid #ccc;
+}
+.pro-message > .enlarge > #small #span {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  opacity: 0.2;
+  position: absolute;
+}
+.pro-message > .enlarge > ul > li {
+  float: left;
+  width: 88px;
+  height: 88px;
+  border: 1px solid #ccc;
+  margin: 5px 0 0 29px;
+}
+.pro-message > .enlarge > ul > li:hover {
+  cursor: pointer;
+  border: 1px solid #990000;
+}
+.pro-message > .enlarge > ul > li > img {
+  width: 88px;
+  height: 88px;
+}
+.pro-message > .enlarge > ul > li:first-child {
+  margin-left: 0;
+}
+.pro-message > .enlarge > ul > li.on {
+  border: 1px solid #990009;
+  -webkit-box-shadow: 0 0 12px #990009;
+  box-shadow: 0 0 12px #990009;
+}
+.pro-message > .text {
+  float: left;
+  margin-left: 40px;
+  width: 713px;
+  height: 560px;
+}
+.pro-message > .text > h1 {
+  color: #020204;
+  font-size: 24px;
+  font-family: "微软雅黑";
+  font-weight: 400;
+  line-height: 40px;
+}
+.pro-message > .text > h2 {
+  color: #cc0000;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.pro-message > .text > p {
+  clear: both;
+}
+.pro-message > .text > .price {
+  width: 100%;
+  height: 70px;
+  background: #e5e5e5;
+  float: left;
+}
+.pro-message > .text > .price > p {
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #999;
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  width: 600px;
+  padding-left: 6px;
+}
+.pro-message > .text > .price > p > span {
+  text-decoration: line-through;
+}
+.pro-message > .text > .price > p > small {
+  color: #cc0000;
+  font-size: 18px;
+}
+.pro-message > .text > .price > .right {
+  display: inline-block;
+  width: 92px;
+  height: 40px;
+  margin: 15px 0;
+  text-align: center;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+.pro-message > .text > .price > .right > small {
+  width: 1px;
+  height: 30px;
+  display: inline-block;
+  background: #999;
+  margin: -14px 0;
+  float: right;
+}
+.pro-message > .text > .price > .right > p {
+  color: #cc0000;
+  line-height: 20px;
+  width: 91px;
+  float: right;
+}
+.pro-message > .text > .price > .right > p:first-child {
+  color: #999;
+}
+.pro-message > .text > .message {
+  width: 713px;
+  overflow: hidden;
+  margin-top: 28px;
+  float: left;
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+}
+.pro-message > .text > .message > p {
+  clear: both;
+}
+.pro-message > .text > .message > div {
+  float: left;
+  width: 713px;
+  margin-bottom: 20px;
+  /**。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。配送地址**/
+}
+.pro-message > .text > .message > div > select {
+  padding-bottom: 2px;
+}
+.pro-message > .text > .message > div > small {
+  color: #000;
+  font-family: "微软雅黑";
+  font-size: 12px;
+}
+.pro-message > .text > .message > div > div.ser {
+  display: inline-block;
+  width: 100px;
+  height: 18px;
+  color: #000;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  vertical-align: middle;
+  /**。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。配送地址**/
+}
+.pro-message > .text > .message > div > div.ser > small {
+  width: 73px;
+  overflow: hidden;
+  display: inline-block;
+  padding-left: 7px;
+  padding-right: 0px;
+  border: 1px solid #ccc;
+  background: white;
+  float: left;
+  outline: none;
+  position: absolute;
+}
+.pro-message > .text > .message > div > div.ser > span {
+  display: inline-block;
+  float: right;
+  width: 17px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-left: 0;
+  background: url(../../images/top.png) no-repeat center;
+}
+.pro-message > .text > .message > div > div.ser > span:hover {
+  cursor: pointer;
+}
+.pro-message > .text > .message > div > p {
+  font-size: 12px;
+  padding-left: 63px;
+  line-height: 30px;
+}
+.pro-message > .text > .message > div > p > span {
+  color: #cc0000;
+}
+.pro-message > .text > .message > div > span {
+  height: 20px;
+  display: inline-block;
+  margin-right: 13px;
+}
+.pro-message > .text > .message > div > span > img {
+  vertical-align: middle;
+  margin: -3px 5px 0 6px;
+}
+.pro-message > .text > .message > div > .special {
+  padding-bottom: 3px;
+  padding-left: 30px;
+  vertical-align: middle;
+  margin-right: 13px;
+  border: 1px solid #ccc;
+  background: url(../../images/yancheang.png) no-repeat 10px 2px;
+  color: #333;
+}
+.pro-message > .text > .message > .favour > span {
+  display: inline-block;
+  width: 73px;
+  height: 18px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 18px;
+  color: #333333;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  margin-right: 15px;
+}
+.pro-message > .text > .message > .favour > span:hover {
+  cursor: pointer;
+}
+.pro-message > .text > .message > .number > span {
+  display: inline-block;
+  width: 56px;
+  margin-right: 0;
+  float: left;
+}
+.pro-message > .text > .message > .number > span > span {
+  float: right;
+}
+.pro-message > .text > .message > .number > div {
+  display: inline-block;
+  float: left;
+  width: 95px;
+  height: 20px;
+  border: 0;
+}
+.pro-message > .text > .message > .number > div > small {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #cccccc;
+  vertical-align: middle;
+  float: right;
+  margin-top: 4px;
+  text-align: center;
+  line-height: 8px;
+}
+.pro-message > .text > .message > .number > div > small:hover {
+  cursor: pointer;
+}
+.pro-message > .text > .message > .number > div input {
+  border: 1px solid #cccccc;
+  width: 40px;
+  height: 18px;
+  vertical-align: middle;
+  outline: none;
+  margin: 0 4px;
+  float: right;
+  line-height: 18px;
+  text-align: center;
+  color: #cc0000;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+.pro-message > .text > .message > .addtion {
+  width: 713px;
+  height: 38px;
+  margin-bottom: 34px;
+}
+.pro-message > .text > .message > .addtion > a,
+.pro-message > .text > .message > .addtion button {
+  width: 121px;
+  height: 38px;
+  margin-right: 48px;
+  outline: none;
+  border: 0;
+  text-align: center;
+  line-height: 38px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  float: left;
+}
+.pro-message > .text > .message > .addtion > a:hover,
+.pro-message > .text > .message > .addtion button:hover {
+  cursor: pointer;
+}
+.pro-message > .text > .message > .addtion > a:first-child {
+  background: #666600;
+}
+.pro-message > .text > .message > .addtion > a:first-child + a {
+  background: #cc0000;
+  margin-right: 15px;
+}
+.pro-message > .text > .message > .addtion > button:last-child {
+  background: #ffffff;
+  color: #999999;
+  border: 1px solid #999;
+  font-size: 14px;
+  width: 97px;
+  text-align: left;
+}
+.pro-message > .text > .message > .addtion > button:last-child > img {
+  float: left;
+  vertical-align: middle;
+  margin: 10px 5px 0 9px;
+}
+.pro-message > .text > .message > .share > a {
+  width: 96px;
+  height: 36px;
+  display: inline-block;
+  border: 1px solid #999999;
+  color: #999999;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  float: left;
+  line-height: 36px;
+  margin-right: 8px;
+}
+.pro-message > .text > .message > .share > a > img {
+  float: left;
+  margin: 9px 7px 0 22px;
+}
+.pro-message > .text > .message > .share > span {
+  display: inline-block;
+  width: 190px;
+  height: 38px;
+  background: #e5e5e5;
+  text-align: center;
+}
+.pro-message > .text > .message > .share > span > a > img {
+  margin: 3px 6px;
+}
+/** ................商品信息................................... **/
+/** ................详情...................................... **/
+.pro-recomm {
+  width: 100%;
+  overflow: hidden;
+}
+.pro-recomm > h1 {
+  height: 45px;
+  font-weight: 400;
+}
+.pro-recomm > h1 > span {
+  display: inline-block;
+  width: 127px;
+  height: 45px;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #cc0000;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  color: #cc0000;
+  text-align: center;
+  line-height: 45px;
+  float: left;
+}
+.pro-recomm > h1 > small {
+  width: 1072px;
+  height: 1px;
+  display: inline-block;
+  background: #ccc;
+  margin-top: 45px;
+  margin-left: -1px;
+}
+.pro-recomm > div {
+  width: 1198px;
+  height: 238px;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+.pro-recomm > div > ul {
+  margin-left: 67px;
+}
+.pro-recomm > div > ul > li {
+  float: left;
+  width: 198px;
+  height: 178px;
+  border: 1px solid #ccc;
+  margin-right: 67px;
+  margin-top: 30px;
+  position: relative;
+}
+.pro-recomm > div > ul > li > a {
+  display: block;
+}
+.pro-recomm > div > ul > li > a > img {
+  display: block;
+  margin: 2px auto 0;
+}
+.pro-recomm > div > ul > li > a > span {
+  display: inline-block;
+  width: 198px;
+  height: 27px;
+  background: #ccc;
+  color: #cc0000;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  text-align: center;
+  line-height: 27px;
+  position: absolute;
+  bottom: 0;
+}
+/** ................详情....................................... **/
+/** ....................推荐................................... **/
+.pro-hotshop {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.pro-hotshop > .hot {
+  width: 250px;
+  overflow: hidden;
+  float: left;
+  margin-right: 18px;
+}
+.pro-hotshop > .hot > div {
+  width: 250px;
+  height: 78px;
+  background: #ccc;
+  border-bottom: 2px solid #cc0000;
+  font-family: "微软雅黑";
+  color: #cc0000;
+  font-size: 20px;
+  text-align: center;
+  line-height: 78px;
+}
+.pro-hotshop > .hot > ul {
+  margin-top: 19px;
+}
+.pro-hotshop > .hot > ul > li {
+  width: 250px;
+  height: 244px;
+  float: left;
+  margin-bottom: 28px;
+  background: #e5e5e5;
+}
+.pro-hotshop > .hot > ul > li > a {
+  font-family: "微软雅黑";
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  line-height: 27px;
+  float: left;
+}
+.pro-hotshop > .hot > ul > li > a > img {
+  width: 180px;
+  height: 140px;
+  margin: 20px 35px;
+}
+.pro-hotshop > .hot > ul > li > a > h4 {
+  color: #000;
+  font-family: "黑体";
+  font-weight: 400;
+}
+.pro-hotshop > .hot > ul > li > a > p {
+  color: #cc0000;
+}
+.pro-hotshop > .information {
+  width: 932px;
+  overflow: hidden;
+  float: left;
+}
+.pro-hotshop > .information > ul {
+  width: 100%;
+  height: 78px;
+  background: #e5e5e5;
+  border-bottom: 2px solid #000;
+}
+.pro-hotshop > .information > ul > li {
+  width: 194px;
+  height: 78px;
+  float: left;
+  font-size: 22px;
+  font-family: "微软雅黑";
+  text-align: center;
+  line-height: 78px;
+}
+.pro-hotshop > .information > ul > li:hover {
+  background: #000;
+}
+.pro-hotshop > .information > ul > li:hover > a {
+  color: #fff;
+}
+.pro-hotshop > .information > ul > li > a {
+  color: #000;
+  display: block;
+}
+.pro-hotshop > .information > ul > li > a.on {
+  background: #000;
+  color: #fff;
+}
+.pro-hotshop > .information > ul > li:first-child {
+  margin-left: 70px;
+}
+.pro-hotshop > .information > a {
+  display: block;
+  float: left;
+  margin-top: 19px;
+  margin-bottom: 45px;
+}
+.pro-hotshop > .information > a > img {
+  width: 932px;
+  height: 169px;
+}
+select {
+  outline: none;
+}

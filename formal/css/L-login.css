@@ -1,0 +1,207 @@
+.top > h1 > p {
+  display: block;
+  color: #ff6600;
+  font-size: 14px;
+  float: right;
+  line-height: 40px;
+}
+.top > h1 > p > a {
+  color: #ff6600;
+}
+.top > h1 > p > a:hover {
+  color: blue;
+}
+.content {
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/denglu.png) no-repeat center;
+}
+.content > div {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+}
+.content > div > form {
+  width: 440px;
+  overflow: hidden;
+  float: right;
+  margin-top: 90px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.content > div > form > h1 {
+  height: 48px;
+  border-bottom: 1px solid #999999;
+  padding: 0 20px 0 14px;
+  line-height: 48px;
+  font-size: 24px;
+  font-family: "微软雅黑";
+  font-weight: 400;
+  margin-bottom: 29px;
+}
+.content > div > form > h1 > a {
+  color: #000;
+}
+.content form > h1 > span {
+  display: inline-block;
+  width: 1px;
+  height: 20px;
+  margin: 20px 105px 0 108px;
+  background: #999;
+}
+.content form > label {
+  display: inline-block;
+  width: 390px;
+  height: 38px;
+  border: 1px #999 solid;
+  margin: 0 25px 20px;
+}
+.content form > label > span {
+  display: block;
+  width: 67px;
+  height: 38px;
+  background: #eae9e9;
+  border-right: #999 1px solid;
+  float: left;
+}
+.content form > label > p {
+  float: left;
+  margin-left: 70px;
+  color: #cc0000;
+}
+.content form > label > span > img {
+  width: 28px;
+  height: 28px;
+  display: block;
+  margin: 5px auto;
+}
+.content form input {
+  width: 309px;
+  height: 38px;
+  outline: none;
+  border: 0;
+  float: left;
+  padding-left: 13px;
+  line-height: 38px;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  color: #000;
+}
+.content form > p {
+  font-size: 14px;
+  font-family: "微软雅黑";
+  width: 390px;
+  height: 18px;
+  margin: -2px 25px 18px;
+  line-height: 18px;
+  text-align: right;
+}
+.content form > p > a {
+  color: #cc0000;
+}
+.content form > p > a:hover {
+  text-decoration: underline;
+}
+.content form > label.proving {
+  display: inline-block;
+  width: 390px;
+  height: 40px;
+  margin: 0 25px 20px;
+  border: 0;
+}
+.content form > label.proving > span {
+  display: block;
+  width: 67px;
+  height: 38px;
+  background: #eae9e9;
+  border: #999 1px solid;
+  float: left;
+}
+.content form > label.proving > span > img {
+  width: 28px;
+  height: 28px;
+  display: block;
+  margin: 5px auto;
+}
+.content form > label.proving > input {
+  width: 109px;
+  height: 38px;
+  border: #999 1px solid;
+  border-left: 0;
+  outline: none;
+  color: #333333;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  text-align: center;
+  line-height: 38px;
+  padding: 0;
+}
+.content form > label.proving > a {
+  float: right;
+  vertical-align: middle;
+}
+.content form > label.proving > a:first-of-type {
+  margin-top: 10px;
+  margin-left: 11px;
+}
+.content form > label.proving > a:last-child {
+  height: 38px;
+  border: #999 1px solid;
+}
+.content form > label.proving > a:last-child img {
+  width: 107px;
+  height: 38px;
+}
+.content form > input {
+  height: 40px;
+  width: 390px;
+  padding: 0;
+  background: #cc0000;
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 25px 29px;
+}
+.content form > input:hover {
+  cursor: pointer;
+}
+.content form > h6 {
+  width: 390px;
+  height: 50px;
+  border-top: 1px solid #999;
+  margin: 0;
+  float: left;
+  padding: 0 25px;
+  font-weight: 400;
+}
+.content form > h6 > span {
+  height: 50px;
+  display: block;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #999;
+  line-height: 50px;
+  float: left;
+  margin-right: 32px;
+}
+.content form > h6 > span > a {
+  display: block;
+  float: left;
+  margin-right: 6px;
+}
+.content form > h6 > span > a > img {
+  width: 26px;
+  height: 26px;
+  margin-top: 12px;
+}
+.content form > h6 > a {
+  color: #cc0000;
+  float: right;
+  line-height: 50px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+}
+.content form > h6 > a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,205 @@
+/*.......................................................*/
+.information > .eval {
+  display: none;
+}
+.information > .eval > div.evaluate {
+  width: 930px;
+  height: 243px;
+  border: 1px solid #ccc;
+  margin-top: 18px;
+}
+.information > .eval > div.evaluate > div.percent {
+  width: 224px;
+  height: 243px;
+  float: left;
+}
+.information > .eval > div.evaluate > div.percent > span {
+  display: inline-block;
+  width: 200px;
+  height: 171px;
+  padding-top: 72px;
+  color: #cc0000;
+  font-size: 24px;
+  font-family: "微软雅黑";
+  text-align: center;
+}
+.information > .eval > div.evaluate > div.percent > span > span {
+  font-size: 48px;
+}
+.information > .eval > div.evaluate > div.percent > p {
+  width: 23px;
+  height: 183px;
+  float: right;
+  color: #000;
+  font-family: "微软雅黑";
+  font-size: 24px;
+  position: relative;
+  padding-top: 60px;
+}
+.information > .eval > div.evaluate > div.percent > p:before {
+  width: 2px;
+  height: 40px;
+  top: 19px;
+  left: 10px;
+  position: absolute;
+  content: "";
+  background: #ccc;
+}
+.information > .eval > div.evaluate > div.percent > p:after {
+  width: 2px;
+  height: 40px;
+  left: 10px;
+  margin-top: 5px;
+  position: absolute;
+  content: "";
+  background: #ccc;
+}
+.information > .eval > div.evaluate > ul {
+  float: right;
+  width: 588px;
+  margin-right: 85px;
+}
+.information > .eval > div.evaluate > ul > li {
+  width: 160px;
+  height: 34px;
+  border: 1px solid #666666;
+  float: left;
+  margin: 38px 0 0 34px;
+  color: #666666;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  text-align: center;
+  line-height: 34px;
+}
+.information > .eval > div.evaluate > ul > li > a {
+  display: block;
+  color: #666666;
+}
+.information > .eval > div.evaluate > ul > li > a:hover {
+  color: #cc0000;
+}
+.information > .eval > div.evaluate > ul > li:hover {
+  cursor: pointer;
+  border: 1px solid #cc0000;
+  color: #cc0000;
+}
+.information > .eval > div.evaluate > ul > li.on {
+  border: 1px solid #cc0000;
+}
+.information > .eval > ul {
+  width: 930px;
+  height: 30px;
+  border: 1px solid #ccc;
+  margin-top: 27px;
+  font-weight: 400;
+  background: #e5e5e5;
+  font-family: "微软雅黑";
+  font-size: 16px;
+}
+.information > .eval > ul > li {
+  float: left;
+}
+.information > .eval > ul > li > a {
+  display: inline-block;
+  width: 98px;
+  height: 29px;
+  overflow: hidden;
+  border: #999 solid 1px;
+  float: left;
+  color: #000;
+  line-height: 29px;
+  text-align: center;
+}
+.information > .eval > ul > li > a:hover {
+  border-top: 1px solid #cc0000;
+  color: #cc0000;
+}
+.information > .eval > ul > li > a.on {
+  border-top: 1px solid #cc0000;
+  color: #cc0000;
+}
+.information > .eval > .assess {
+  width: 100%;
+  overflow: hidden;
+}
+.information > .eval > .assess > ul.assess-head {
+  overflow: hidden;
+}
+.information > .eval > .assess > ul.assess-head:after {
+  content: "";
+  display: block;
+  clear: both;
+  overflow: hidden;
+  font-size: 0;
+  height: 0;
+}
+.information > .eval > .assess > ul.assess-head li {
+  width: 932px;
+  height: 198px;
+  border-bottom: 2px solid #ccc;
+  float: left;
+}
+.information > .eval > .assess > ul.assess-head li > .headimg {
+  float: left;
+  width: 120px;
+  height: 138px;
+  padding-left: 30px;
+  padding-top: 60px;
+  font-family: "微软雅黑";
+  color: #666;
+  font-size: 14px;
+}
+.information > .eval > .assess > ul.assess-head li > .headimg > div {
+  width: 43px;
+  height: 43px;
+  float: left;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.information > .eval > .assess > ul.assess-head li > .headimg > div > img {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+}
+.information > .eval > .assess > ul.assess-head li > .headimg > h5 {
+  font-size: 18px;
+  font-weight: 400;
+  float: left;
+}
+.information > .eval > .assess > ul.assess-head li > .headimg > h6 {
+  color: #e7b942;
+  font-size: 18px;
+  font-weight: 400;
+  float: left;
+}
+.information > .eval > .assess > ul.assess-head li > .text {
+  width: 740px;
+  height: 198px;
+  padding-right: 10px;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  color: #999999;
+  display: table;
+  float: right;
+}
+.information > .eval > .assess > ul.assess-head li > .text > div {
+  word-wrap: break-word;
+  line-height: 24px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.information > .eval > .assess > ul.assess-head li > .text > div > p {
+  float: left;
+}
+.information > .eval > .assess > ul.assess-head li > .text > div li {
+  margin: 10px 35px 0 0;
+  width: 77px;
+  height: 77px;
+  float: left;
+}
+.information > .eval > .assess > ul.assess-head li > .text > div li > img {
+  width: 77px;
+  height: 77px;
+}

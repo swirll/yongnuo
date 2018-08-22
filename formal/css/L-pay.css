@@ -1,0 +1,173 @@
+/*.......................................................*/
+.top > .head > h1 > a {
+  color: #000;
+  padding: 0 5px;
+}
+.top > .head > h1 > a > img {
+  margin: 0 5px;
+}
+.navi > .head > p {
+  font-family: "微软雅黑";
+  font-size: 30px;
+  color: #fff;
+  padding-left: 290px;
+  margin-top: 15px;
+}
+/**.........................头部..............................**/
+.title {
+  margin-top: 10px;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+.title > h1 {
+  font-weight: 400;
+  font-family: "微软雅黑";
+  color: #000;
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 5px;
+}
+.title > h1 > span {
+  float: right;
+  display: inline-block;
+  color: #252525;
+  font-size: 18px;
+}
+.title > h1 > span > small {
+  color: #cc0000;
+  font-size: 24px;
+}
+.title > p {
+  font-family: "微软雅黑";
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.title > p > a {
+  color: #676500;
+  display: inline-block;
+  float: right;
+}
+.title > p > a > img {
+  margin-left: 4px;
+}
+/**................标题....................................**/
+.way {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 27px;
+}
+.way > h1 {
+  font-weight: 400;
+  font-family: "微软雅黑";
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 23px;
+  line-height: 31px;
+}
+.way > form {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+.way > form > .money {
+  height: 138px;
+  width: 1198px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+.way > form > .money > h2 {
+  line-height: 30px;
+  padding-left: 19px;
+  background: #dfdfdf;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  font-family: "微软雅黑";
+}
+.way > form > .money ul {
+  padding-left: 85px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.way > form > .money li {
+  float: left;
+  width: 262px;
+}
+.way > form > .money li > span {
+  display: inline-block;
+  float: left;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #767676;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 14px;
+  color: #666666;
+  margin-right: 10px;
+  margin-top: 27px;
+}
+.way > form > .money li > span:hover {
+  cursor: pointer;
+}
+.way > form > .money li > span.on {
+  border: 1px solid #cc0000;
+  color: #cc0000;
+}
+.way > form > .money li > img:hover {
+  cursor: pointer;
+}
+.way > form > button {
+  padding: 0 30px 0 22px;
+  height: 40px;
+  border: 1px solid #ccc;
+  outline: none;
+  float: left;
+  margin-right: 14px;
+  background: #fff;
+  color: #656600;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  line-height: 40px;
+}
+.way > form > button:hover {
+  cursor: pointer;
+}
+.way > form > button > img {
+  margin-left: 5px;
+}
+.way > form > p {
+  clear: both;
+}
+.way > form > .pay {
+  margin: 32px 0 22px;
+  width: 100%;
+  overflow: hidden;
+  text-align: right;
+}
+.way > form > .pay > span {
+  display: inline-block;
+  font-size: 16px;
+  color: #cc0000;
+  line-height: 55px;
+}
+.way > form > .pay > span > small {
+  font-size: 16px;
+}
+.way > form > .pay > a {
+  width: 145px;
+  height: 55px;
+  text-align: center;
+  display: inline-block;
+  background: #cc0000;
+  font-family: "微软雅黑";
+  font-size: 24px;
+  color: #fff;
+  line-height: 55px;
+  margin-left: 30px;
+}
+.way > form > .pay > a:hover {
+  cursor: pointer;
+}

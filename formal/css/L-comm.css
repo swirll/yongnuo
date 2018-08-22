@@ -1,0 +1,89 @@
+body,
+h1,
+h2,
+img,
+p,
+div,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  overflow-x: hidden;
+}
+.top {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.top > a {
+  display: block;
+}
+.top > a > img {
+  width: 384px;
+  height: 51px;
+  float: left;
+  margin: 30px 0;
+}
+.top > a.adv {
+  float: right;
+  display: block;
+  margin-top: 53px;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  color: #cc0000;
+}
+.top > a.adv > img {
+  width: 27px;
+  height: 26px;
+  float: left;
+  margin: 0 14px;
+}
+.top > h1 {
+  width: 1200px;
+  font-weight: 400;
+  font-family: "微软雅黑";
+  font-size: 30px;
+  color: #000;
+  float: left;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.footer {
+  width: 100%;
+  overflow: hidden;
+  margin: 58px 0;
+}
+.footer .link {
+  width: 100%;
+}
+.footer .link > h1 {
+  width: 1200px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  line-height: 36px;
+  text-align: center;
+}
+.footer .link > h1 > a {
+  color: #333;
+}
+.footer .link > h1 > a:hover {
+  border-bottom: 1px solid #333;
+}
+.footer > h2 {
+  color: #333;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 10px;
+}

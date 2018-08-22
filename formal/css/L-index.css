@@ -1,0 +1,642 @@
+/*.......................................................*/
+#banner {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+#banner > #pic > li {
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+}
+#banner > #pic > li img {
+  width: 1920px;
+  height: 600px;
+}
+#banner > #cir {
+  width: 330px;
+  height: 12px;
+  position: absolute;
+  left: 50%;
+  margin-left: -115px;
+  z-index: 99;
+  bottom: 66px;
+}
+#banner > #cir > li {
+  width: 60px;
+  height: 12px;
+  float: left;
+  margin: 0 25px;
+  background: #999999;
+}
+#banner > #cir > li:hover {
+  background: #cc0000;
+  cursor: pointer;
+}
+#banner > #cir > .on {
+  background: #cc0000;
+}
+#banner > span {
+  display: inline-block;
+  width: 84px;
+  height: 73px;
+  position: absolute;
+  background: #c2c1bd;
+  opacity: 0.6;
+  z-index: 999;
+  top: 264px;
+  border-radius: 10px;
+}
+#banner > span:hover {
+  cursor: pointer;
+}
+#banner > span > img {
+  display: block;
+  margin: 12px auto;
+}
+#banner > #left {
+  left: 50%;
+  margin-left: -640px;
+}
+#banner > #right {
+  right: 50%;
+  margin-right: -640px;
+}
+.discount {
+  width: 1200px;
+  height: 150px;
+  margin: 30px auto;
+  background: #ccc;
+}
+.discount > p {
+  font-family: "微软雅黑";
+  color: #cc0000;
+  font-size: 48px;
+  float: left;
+  margin: 0;
+  padding: 43px 0 43px 30px;
+}
+.discount > ul {
+  margin-right: 3px;
+  float: right;
+}
+.discount > ul > li {
+  float: left;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.discount > ul > li img {
+  width: 200px;
+  height: 90px;
+}
+.contant {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.contant > .active {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.contant > .active li {
+  float: left;
+  width: 238px;
+  height: 298px;
+  border: 1px solid #330000;
+  position: relative;
+}
+.contant > .active li:before {
+  content: '';
+  background: url(../images/atop.png);
+  position: absolute;
+  z-index: 60;
+  width: 238px;
+  height: 70px;
+}
+.contant > .active li:after {
+  content: '';
+  background: url(../images/abottom.png);
+  position: absolute;
+  z-index: 60;
+  width: 238px;
+  height: 70px;
+  bottom: 0;
+}
+.contant > .active li a {
+  display: block;
+}
+.contant > .active li a > div {
+  position: absolute;
+  top: 0;
+}
+.contant > .active li a > div > span {
+  z-index: 100;
+  position: absolute;
+  font-family: "MS Sans Serif";
+  font-size: 30px;
+  color: #cc0000;
+  padding: 5px 0 0 3px;
+}
+.contant > .active li a > div > small {
+  z-index: 70;
+  position: absolute;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #000;
+  display: inline-block;
+  width: 65px;
+  top: 28px;
+  left: 175px;
+}
+.contant > .active li a > div:last-child {
+  position: absolute;
+  bottom: 70px;
+}
+.contant > .active li a > div:last-child > span {
+  z-index: 70;
+  position: absolute;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  color: #cc0000;
+  display: inline-block;
+  width: 144px;
+  padding-left: 89px;
+  bottom: -65px;
+}
+.contant > .active li a > div:last-child > span:last-child {
+  z-index: 70;
+  position: absolute;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+  width: 220px;
+  bottom: -35px;
+  padding-left: 10px;
+}
+.contant > .active li img {
+  width: 238px;
+  height: 298px;
+  position: absolute;
+}
+.contant > .hot {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.contant > .hot > .hotpic {
+  width: 190px;
+  height: 300px;
+  position: relative;
+  font-family: "微软雅黑";
+}
+.contant > .hot > .hotpic > span:first-child {
+  position: absolute;
+  z-index: 100;
+  color: #fff;
+  font-size: 18px;
+  left: 40px;
+  top: 36px;
+}
+.contant > .hot > .hotpic > small {
+  display: inline-block;
+  width: 172px;
+  height: 20px;
+  background: #fff;
+  position: absolute;
+  color: #cc0000;
+  z-index: 100;
+  font-size: 14px;
+  left: 10px;
+  bottom: 47px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50px;
+}
+.contant > .hot > .hotpic > span:last-child {
+  position: absolute;
+  color: #fff;
+  font-size: 18px;
+  z-index: 100;
+  font-family: Myriad Pro;
+  font-weight: 900;
+  bottom: 15px;
+  left: 40px;
+}
+.contant > .hot > .hotpic > span:last-child > span {
+  display: inline-block;
+  margin-left: 35px;
+}
+.contant > .hot > .hotpic img {
+  width: 190px;
+  height: 300px;
+  position: absolute;
+}
+.contant > .hot .hotleft {
+  float: left;
+}
+.contant > .hot .hotright {
+  float: right;
+}
+.contant > .hot > ul {
+  width: 812px;
+  overflow: hidden;
+  margin-left: 8px;
+  float: left;
+}
+.contant > .hot > ul > li {
+  float: left;
+  width: 128px;
+  height: 68px;
+  border: 1px solid #999999;
+  margin: 0 2px 7px;
+}
+.contant > .hot > ul > li a {
+  display: block;
+}
+.contant > .hot > ul > li img {
+  width: 128px;
+  height: 68px;
+}
+.contant > .new {
+  /**
+       *1f新品
+       */
+  overflow: hidden;
+}
+.contant > .new > .title {
+  background: #666600;
+}
+.contant > .new > .title > h1 small {
+  background: #333300;
+}
+.contant > .new > .left > a > span {
+  background: #666600;
+}
+.contant > .new > .left .extend {
+  background: #333300;
+}
+.contant > .new > img {
+  width: 1200px;
+  height: 200px;
+  margin: 20px 0;
+}
+.contant > .new .cen img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 17px;
+}
+.contant > .new .right > li > a:last-child > img {
+  margin-top: 20px;
+}
+.contant > .new .right > li div {
+  width: 120px;
+}
+.contant > .hotshop {
+  /**2f热门商品**/
+  overflow: hidden;
+}
+.contant > .hotshop > .title {
+  background: #ff9933;
+}
+.contant > .hotshop > .title > h1 small {
+  background: #ff6600;
+}
+.contant > .hotshop > .left > a > span {
+  background: #ff9933;
+}
+.contant > .hotshop > .left .extend {
+  background: #ff6600;
+}
+.contant > .hotshop > img {
+  width: 1200px;
+  height: 200px;
+  margin: 20px 0;
+}
+.contant > .hotshop .cen img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 17px;
+}
+.contant > .hotshop .right li > a:last-child > img {
+  margin-top: 10px;
+}
+.contant > .hotshop .right > li:nth-child(3) > a:last-child > img {
+  margin-top: 1px;
+}
+.contant > .recom {
+  /**3f推荐商品**/
+  overflow: hidden;
+}
+.contant > .recom > .title {
+  background: #00cccc;
+}
+.contant > .recom > .title > h1 small {
+  background: #009999;
+}
+.contant > .recom > .left > a > span {
+  background: #00cccc;
+}
+.contant > .recom > .left .extend {
+  background: #009999;
+}
+.contant > .recom > img {
+  width: 1200px;
+  height: 200px;
+  margin: 20px 0;
+}
+.contant > .recom .cen img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+.contant > .burst {
+  /**4f爆款商品**/
+  overflow: hidden;
+}
+.contant > .burst > .title {
+  background: #3366ff;
+}
+.contant > .burst > .title > h1 small {
+  background: #0b3ed4;
+}
+.contant > .burst > .left > a > span {
+  background: #3366ff;
+}
+.contant > .burst > .left .extend {
+  background: #0033cc;
+}
+.contant > .burst > img {
+  width: 1200px;
+  height: 200px;
+  margin: 20px 0;
+}
+.contant > .burst .cen img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.contant > .burst .right div {
+  width: 123px;
+}
+.contant .left {
+  /**分类下的公共样式，分为左中右三个结构**/
+  width: 190px;
+  height: 420px;
+  float: left;
+}
+.contant .left > a {
+  display: inline-block;
+  width: 190px;
+  height: 323px;
+  position: relative;
+  float: left;
+}
+.contant .left > a > img {
+  width: 190px;
+  height: 317px;
+  position: absolute;
+  top: 0;
+}
+.contant .left > a > span {
+  display: inline-block;
+  width: 190px;
+  height: 25px;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  color: #cc0000;
+  line-height: 25px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+}
+.contant .left > span {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  float: left;
+  background: #000;
+}
+.contant .left > .extend {
+  width: 177px;
+  height: 97px;
+  float: left;
+}
+.contant .left > .extend > h3 {
+  text-align: center;
+  color: #fff;
+  font-family: "黑体";
+  font-size: 18px;
+  margin: 24px 0 9px 0;
+}
+.contant .left > .extend > p {
+  text-align: center;
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  margin: 0;
+}
+.contant .cen {
+  width: 657px;
+  height: 440px;
+  margin-left: 10px;
+  float: left;
+}
+.contant .cen > li {
+  border-left: 1px dashed #999999;
+  width: 218px;
+  height: 220px;
+  float: left;
+}
+.contant .cen > li a {
+  display: block;
+  width: 100%;
+  height: 210px;
+  padding-top: 10px;
+}
+.contant .cen > li h4 {
+  color: #330000;
+  font-size: 18px;
+  font-family: "黑体";
+  text-align: center;
+  line-height: 20px;
+}
+.contant .cen > li p {
+  color: #666600;
+  font-family: "黑体";
+  font-size: 14px;
+  text-align: center;
+  line-height: 18px;
+}
+.contant .cen > li span {
+  display: inline-block;
+  width: 218px;
+  color: #cc0000;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  text-align: center;
+  line-height: 20px;
+}
+.contant .cen > li:first-child {
+  border-bottom: 1px dashed #999999;
+}
+.contant .cen > li:nth-child(2) {
+  border-bottom: 1px dashed #999999;
+}
+.contant .cen > li:nth-child(3) {
+  border-bottom: 1px dashed #999999;
+}
+.contant .right {
+  float: left;
+  width: 333px;
+  height: 440px;
+}
+.contant .right > li {
+  width: 330px;
+  height: 134px;
+  border: 1px dashed #999999;
+  border-bottom: 0;
+}
+.contant .right > li > a {
+  width: 280px;
+  height: 100%;
+  display: inline-block;
+  padding-left: 50px;
+  float: left;
+}
+.contant .right > li > a > div {
+  width: 154px;
+  float: left;
+}
+.contant .right > li > a > div > h4 {
+  color: #330000;
+  font-size: 18px;
+  font-family: "黑体";
+  line-height: 20px;
+}
+.contant .right > li > a > div > p {
+  color: #666600;
+  font-size: 14px;
+  font-family: "黑体";
+  line-height: 20px;
+}
+.contant .right > li > a > div > span {
+  color: #cc0000;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  line-height: 25px;
+}
+.contant .right > li:first-child {
+  border-top: 0;
+}
+.contant .right > li:nth-child(2) {
+  height: 157px;
+}
+.contant .title {
+  height: 60px;
+  margin-bottom: 15px;
+}
+.contant .title > h1 {
+  font-weight: 400;
+  font-family: "微软雅黑";
+  font-size: 24px;
+  color: #fff;
+  line-height: 60px;
+  margin: 0;
+  padding-left: 27px;
+  position: relative;
+}
+.contant .title > h1 > span {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 0;
+  border: 1px solid #fff;
+  border-right: transparent;
+  border-bottom: transparent;
+}
+.contant .title > h1 > small {
+  position: absolute;
+  width: 36px;
+  height: 3px;
+  left: -3px;
+  top: 14px;
+  -webkit-transform: rotate(-47deg);
+  transform: rotate(-47deg);
+}
+.contant > .walk {
+  overflow: hidden;
+}
+.contant > .walk > ul {
+  margin-top: 30px;
+}
+.contant > .walk li {
+  width: 239px;
+  height: 275px;
+  border: 1px dashed #999999;
+  border-left: 0;
+  position: relative;
+  float: left;
+}
+.contant > .walk li > a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+}
+.contant > .walk li > a > img {
+  display: block;
+  margin: 20px auto;
+}
+.contant > .walk li > a > div {
+  position: absolute;
+  bottom: 20px;
+}
+.contant > .walk li > a > div > p {
+  font-family: "黑体";
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  width: 233px;
+  line-height: 20px;
+}
+.contant > .walk li > a > div > span {
+  display: block;
+  color: #cc0000;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  text-align: center;
+  width: 233px;
+  line-height: 20px;
+}
+.contant > .walk li:nth-child(1) {
+  border-bottom: 0;
+}
+.contant > .walk li:nth-child(2) {
+  border-bottom: 0;
+}
+.contant > .walk li:nth-child(3) {
+  border-bottom: 0;
+}
+.contant > .walk li:nth-child(4) {
+  border-bottom: 0;
+}
+.contant > .walk li:nth-child(5) {
+  border-bottom: 0;
+}
+.contant > .walk li:nth-child(5n) {
+  border-right: 0;
+}
+h2 {
+  color: #000;
+  font-family: "黑体";
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+h2 > span {
+  font-size: 14px;
+  font-family: Regular;
+  font-style: italic;
+  padding-left: 6px;
+}

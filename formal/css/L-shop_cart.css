@@ -1,0 +1,373 @@
+/*.......................................................*/
+.top > .head > h1 > a {
+  color: #000;
+  padding: 0 5px;
+}
+.top > .head > h1 > a > img {
+  margin: 0 5px;
+}
+/**.........................头部..............................**/
+.content {
+  margin-top: 0;
+}
+.content > div.heading {
+  padding-left: 40px;
+  height: 53px;
+  width: 1200;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  color: #000;
+  font-weight: 400;
+  line-height: 53px;
+}
+.content > div.heading > div {
+  float: right;
+  margin-right: 40px;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  color: #000;
+  line-height: 0px;
+  margin-top: 13px;
+  height: 24px;
+}
+.content > div.heading > div > select {
+  width: 111px;
+  height: 22px;
+  border: 1px solid #000;
+  cursor: pointer;
+  outline: none;
+}
+.content > div.heading > div > select > option {
+  cursor: pointer;
+}
+.shop {
+  width: 100%;
+  overflow: hidden;
+}
+.shop > .title {
+  width: 100%;
+  height: 37px;
+  line-height: 37px;
+  background: #e0e0e0;
+  font-family: "微软雅黑";
+  color: #000;
+}
+.shop > .title > small {
+  height: 37px;
+  width: 77px;
+  line-height: 37px;
+  display: inline-block;
+  float: left;
+}
+.shop > .title > small > small {
+  height: 37px;
+  display: inline-block;
+  line-height: 37px;
+  font-size: 14px;
+}
+.shop > .title > small > span {
+  display: inline-block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin: 10px 9px 0 14px;
+  background: white;
+}
+.shop > .title > small > span > img {
+  float: left;
+}
+.shop > .title > small:hover {
+  cursor: pointer;
+}
+.shop > .title > span {
+  display: inline-block;
+  margin-left: 162px;
+}
+.shop > .title > ul {
+  float: right;
+  margin-right: 20px;
+}
+.shop > .title > ul > li {
+  float: left;
+  width: 150px;
+  height: 37px;
+  text-align: center;
+}
+.shop > .title > ul > li:nth-child(3) {
+  width: 135px;
+  padding-left: 15px;
+}
+.shop > ul > li {
+  width: 1198px;
+  height: 108px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+  float: left;
+}
+.shop > ul > li > span {
+  float: left;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  line-height: 14px;
+  text-align: center;
+  margin: 13px 23px 0 13px;
+  color: #cc0000;
+}
+.shop > ul > li > span:hover {
+  cursor: pointer;
+}
+.shop > ul > li > div {
+  float: left;
+  width: 305px;
+  overflow: hidden;
+  margin-top: 13px;
+}
+.shop > ul > li > div > a {
+  display: block;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #000;
+}
+.shop > ul > li > div > a > p {
+  line-height: 20px;
+}
+.shop > ul > li > div > a > img {
+  width: 83px;
+  height: 78px;
+  margin-right: 22px;
+  border: 1px solid #ccc;
+  float: left;
+}
+.shop > ul > li > div > a > span {
+  color: #666600;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+.shop > ul > li > .number {
+  float: right;
+  width: 626px;
+  word-wrap: break-word;
+  line-height: 24px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  margin-top: 0;
+}
+.shop > ul > li > .number > div > div {
+  width: 100px;
+  overflow: hidden;
+  margin: 0 26px;
+  text-align: center;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  float: left;
+  line-height: 20px;
+}
+.shop > ul > li > .number > div > div > small {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 14px;
+}
+.shop > ul > li > .number > div > div > span {
+  color: #000;
+}
+.shop > ul > li > .number > div > div > p {
+  width: 50px;
+  height: 20px;
+  background: #cc0000;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.shop > ul > li > .number > div > div > a {
+  display: inline-block;
+  width: 100px;
+  color: #000;
+  text-align: left;
+}
+.shop > ul > li > .number > div > div > a:hover {
+  color: #cc0000;
+}
+.shop > ul > li > .number > div > div > div {
+  margin-top: 20px;
+  margin-left: 6px;
+  color: #000;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  line-height: 18px;
+}
+.shop > ul > li > .number > div > div > div > button {
+  float: left;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ccc;
+  outline: none;
+  background: #fff;
+}
+.shop > ul > li > .number > div > div > div > button:hover {
+  cursor: pointer;
+}
+.shop > ul > li > .number > div > div > div > input {
+  width: 58px;
+  height: 16px;
+  line-height: 15px;
+  border: 0;
+  color: #000000;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  float: left;
+  text-align: center;
+  outline: none;
+}
+.shop > ul > li > .number > div div:nth-child(1) {
+  margin-top: 27px;
+}
+.shop > ul > li > .number > div div:nth-child(2) {
+  margin-top: 28px;
+}
+.shop > ul > li > .number > div div:nth-child(3) {
+  margin-top: 53px;
+  color: #cc0000;
+}
+.shop > ul > li > .number > div div:nth-child(3) > span {
+  color: #cc0000;
+}
+.shop > ul > li > .number > div div:nth-child(4) {
+  margin-top: 34px;
+}
+.shop > ul > li > .number > div div:last-child {
+  color: #cc0000;
+}
+.shop > .tail {
+  width: 100%;
+  height: 55px;
+  margin-top: 5px;
+  line-height: 55px;
+  float: left;
+}
+.shop > .tail > small {
+  font-family: "微软雅黑";
+  font-size: 16px;
+  display: inline-block;
+  float: left;
+}
+.shop > .tail > small > span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  color: #cc0000;
+  text-align: center;
+  line-height: 14px;
+  background: #fff;
+  margin: 0 9px 0 14px;
+}
+.shop > .tail > small:hover {
+  cursor: pointer;
+}
+.shop > .tail > input {
+  margin-right: 10px;
+}
+.shop > .tail > a {
+  color: #000;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  margin-left: 24px;
+}
+.shop > .tail > div {
+  float: right;
+}
+.shop > .tail > div > span {
+  display: inline-block;
+  float: left;
+  font-family: "微软雅黑";
+  color: #000;
+  font-size: 16px;
+  line-height: 55px;
+  margin-left: 40px;
+}
+.shop > .tail > div > span > span {
+  color: #cc0000;
+}
+.shop > .tail > div > span > small {
+  color: #cc0000;
+  font-size: 30px;
+  float: right;
+  display: inline-block;
+  line-height: 55px;
+}
+.shop > .tail > div > a {
+  width: 107px;
+  height: 55px;
+  margin-left: 120px;
+  background: #cc0000;
+  font-family: "微软雅黑";
+  font-size: 24px;
+  line-height: 55px;
+  border: 0;
+  outline: none;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+}
+.recommend {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.recommend > h1 {
+  font-family: "微软雅黑";
+  color: #cc0000;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+  border-bottom: 1px solid #666600;
+}
+.recommend > ul {
+  width: 100%;
+  height: 240px;
+  background: #e5e5e5;
+}
+.recommend > ul > li {
+  width: 245px;
+  height: 170px;
+  margin-right: 36px;
+  margin-top: 35px;
+  float: left;
+  background: #fff;
+}
+.recommend > ul > li > a {
+  display: block;
+  text-align: center;
+  line-height: 25px;
+  width: 245px;
+  height: 170px;
+  float: left;
+}
+.recommend > ul > li > a > p {
+  font-family: "黑体";
+  color: #330000;
+  font-size: 18px;
+}
+.recommend > ul > li > a > span {
+  font-family: "微软雅黑";
+  font-size: 18px;
+  color: #cc0000;
+  display: inline-block;
+  width: 245px;
+}
+.recommend > ul > li > a > small {
+  display: inline-block;
+  width: 98px;
+  height: 23px;
+  background: #cc0000;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #fff;
+  line-height: 23px;
+}
+.recommend > ul > li:first-child {
+  margin-left: 53px;
+}
